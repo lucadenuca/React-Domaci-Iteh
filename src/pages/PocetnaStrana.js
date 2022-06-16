@@ -19,7 +19,7 @@ function PocetnaStrana() {
 
     return (
         <div>
-            <h1>Spisak aktivnih gradilišta</h1>
+            <h1 className="mb-5 mt-3">Spisak aktivnih gradilišta</h1>
 
             <SvaGradilista spisak={gradilista} />
         </div>
