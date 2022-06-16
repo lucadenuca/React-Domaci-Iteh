@@ -21,7 +21,7 @@ function PocetnaStrana() {
         <div>
             <h1>Spisak aktivnih gradilišta</h1>
 
-            <SvaGradilista />
+            <SvaGradilista spisak={gradilista} />
         </div>
     )
 }
